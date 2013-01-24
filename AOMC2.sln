@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demoder.MapCompiler", "Demoder.MapCompiler\Demoder.MapCompiler.csproj", "{75E55F1C-F0AA-44EF-B051-CC6EEEE67742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AomcConsole", "AomcConsole\AomcConsole.csproj", "{AE9DB1F5-1CF4-435F-B501-5191BB2A70DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demoder.Common", "Demoder.Common\Demoder.Common.csproj", "{AC7BB3A1-A0E3-4931-9661-2BA4DB418B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AEBB8125-CE92-434C-B029-7F8B4A4160BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demoder.Common.Tests", "Demoder.Common\TestProject1\Demoder.Common.Tests.csproj", "{E031C896-57AA-44A6-B0A4-0595034AA1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aomc.GUI", "Aomc.GUI\Aomc.GUI.csproj", "{8C3C1D18-3BD3-4185-9C7C-4339BE4DCC44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E55F1C-F0AA-44EF-B051-CC6EEEE67742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E55F1C-F0AA-44EF-B051-CC6EEEE67742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E55F1C-F0AA-44EF-B051-CC6EEEE67742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E55F1C-F0AA-44EF-B051-CC6EEEE67742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9DB1F5-1CF4-435F-B501-5191BB2A70DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9DB1F5-1CF4-435F-B501-5191BB2A70DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9DB1F5-1CF4-435F-B501-5191BB2A70DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9DB1F5-1CF4-435F-B501-5191BB2A70DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7BB3A1-A0E3-4931-9661-2BA4DB418B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7BB3A1-A0E3-4931-9661-2BA4DB418B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7BB3A1-A0E3-4931-9661-2BA4DB418B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7BB3A1-A0E3-4931-9661-2BA4DB418B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E031C896-57AA-44A6-B0A4-0595034AA1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E031C896-57AA-44A6-B0A4-0595034AA1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E031C896-57AA-44A6-B0A4-0595034AA1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E031C896-57AA-44A6-B0A4-0595034AA1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3C1D18-3BD3-4185-9C7C-4339BE4DCC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3C1D18-3BD3-4185-9C7C-4339BE4DCC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3C1D18-3BD3-4185-9C7C-4339BE4DCC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3C1D18-3BD3-4185-9C7C-4339BE4DCC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E031C896-57AA-44A6-B0A4-0595034AA1D8} = {AEBB8125-CE92-434C-B029-7F8B4A4160BA}
+	EndGlobalSection
+EndGlobal
