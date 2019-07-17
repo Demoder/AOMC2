@@ -85,11 +85,17 @@ namespace Demoder.MapCompiler
                     Image = img,
                     Name = image.Name
                 };
+
+                // Round up the number of tiles in case the image doesn't include a whole number of tiles.
+                // The Anarchy Online client works either way, but Demoder's Planet Map Viewer relies on this value being correct.
+                var tilesWidth = (int)Math.Ceiling(img.Width / (double)Settings.TextureSize);
+                var tilesHeight = (int)Math.Ceiling(img.Height/ (double)Settings.TextureSize);
+
                 this.ImageInfo.Add(image.Name, new ImageInfo
                 {
                     Name = image.Name,
                     Size = img.Size,
-                    Tiles = new Size(img.Width / Settings.TextureSize, img.Height / Settings.TextureSize)
+                    Tiles = new Size(tilesWidth, tilesHeight)
                 });
                 this.SliceQueue.Add(workInfo);
             }
